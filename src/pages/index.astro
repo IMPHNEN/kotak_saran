@@ -1,8 +1,17 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout />
+<Layout>
+	<div class="grid gap8 grid-cols-2 max-w-7xl m-auto h-screen">
+		<div class="flex flex-col bg-blue">
+			<textarea name="" id=""></textarea>
+			<button> Submit </button>
+		</div>
+		<div class="bg-red">
+			<p>This is a test</p>
+		</div>
+	</div>
+</Layout>
